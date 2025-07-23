@@ -1,0 +1,138 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french, english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip} % espace entre paragraphes
+\geometry{left=0.5cm,right=0.5cm,top=0.2cm,bottom=0.5cm} % marges réduites
+
+% Couleurs
+\definecolor{myblue}{HTML}{003366}
+
+% Format section
+\titleformat{\section}{
+  \normalfont\large\bfseries\color{myblue}
+}{}{0em}{}[\titlerule]
+
+% Commande pour aligner date à droite dans une ligne
+\newcommand{\dates}[1]{\hfill {\footnotesize \textit{#1}}}
+
+% Commande pour titre avec lien
+\newcommand{\linkedtitle}[2]{\href{#1}{\textbf{\color{myblue}#2}}}
+
+% Réduire espace entre items
+\setlist[itemize]{noitemsep, topsep=2pt}
+
+\begin{document}
+
+% ======= NOM =======
+\begin{center}
+    {\LARGE \textbf{Angel Velasco}}\\[3pt]
+    \small
+    \href{mailto:angel.velasco0x7@gmail.com}{angel.velasco0x7@gmail.com} \quad
+    +33 6 37 73 62 81 \quad
+    Paris, France \\
+    {\Large \href{https://angel0x7.github.io}{Portfolio - https://angel0x7.github.io}} 
+\end{center}
+
+
+
+% ======= PROFIL =======
+\section*{Profil}
+
+Étudiant en 2\textsuperscript{e} année, spécialisé en cybersécurité, je suis actuellement à la recherche d'expérience professionnelle (stage) afin de mettre en pratique mes compétences et continuer à apprendre aux côtés de professionnels du secteur. 
+
+% ======= EDUCATION =======
+\section*{Éducation}
+
+\noindent
+\linkedtitle{https://www.ece.fr/en/program/engineering-cycle-bac4-information-systems-and-cybersecurity-major/}{École Centrale de l'Électronique} \hfill Paris, France \\
+\emph{Diplôme d'ingénieur – Spécialisation Cybersécurité} \hfill Février 2025 -- Présent \\
+Spécialisation en cybersécurité défensive développée en partenariat avec Microsoft et Orange Cyberdefense, certifiée SecNumEdu par l’ANSSI. 
+
+
+\noindent
+\linkedtitle{https://www.ece.fr/}{École Centrale de l'Électronique} \hfill Paris, France \\
+\emph{Cycle préparatoire intégré} \hfill Septembre 2022 -- Juin 2024 \\
+Classes préparatoires axées sur les bases théoriques et les compétences informatiques par projets. 
+
+
+\noindent
+\linkedtitle{https://www.dcu.ie/}{Dublin City University} \hfill Dublin, Ireland \\
+\emph{Échange International} \hfill Septembre -- Décembre 2024 
+
+% ======= CERTIFICATIONS =======
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item Fortinet Certified Fundamentals -  Associate (FCF + FCA) 
+    \item Blue Team Junior Analyst
+    \item Data Analyst - DataScientest 
+    \item MOOC – Project Management
+\end{itemize}
+
+% ======= COMPETENCES =======
+\section*{Compétences}
+
+\begin{tabular}{p{4cm} p{15cm}}
+\textbf{Cybersécurité} & Analyse réseau (Wireshark, tcpdump), OSINT (TheHarvester, Maltego), forensic, gestion vulnérabilités, chasse malwares (Mandiant Redline) \\
+\textbf{Langages} & Python, Java, C, SQL \\
+\textbf{Développement Web} & HTML, CSS, JavaScript, React, Angular \\
+\textbf{Outils} & Wireshark, Fortinet, Metasploitable 2, VirtualBox/Kali, Nessus, WPScan \\
+\textbf{Data Science} & Analyse de données, machine learning (régression, classification), pandas, scikit-learn \\
+\textbf{Gestion de projet} & Méthodes agiles (Scrum), planification (Gantt, PERT), Trello, Jira, MS Project 
+\end{tabular}
+
+
+
+% ======= COMPETENCES & PROJETS =======
+\section*{ Projets GitHub \& Compétences }
+
+\begin{itemize}[leftmargin=*]
+  \item \href{https://github.com/angel0x7/Projet-Agora}{\textbf{Projet-Agora}} \\
+  Web Development \& E-commerce : HTML, CSS, JavaScript, PHP, Bootstrap, jQuery, MySQL.
+
+  \item \href{https://github.com/angel0x7/Web_site_java}{\textbf{Web\_site\_java}} \\
+  Java Applications : Java, MySQL (JDBC).
+
+  \item \href{https://github.com/angel0x7/Detection-AI-models-}{\textbf{Detection-AI-models}} \\
+  Data Science \& Cybersécurité : Python, Jupyter, NumPy, Scikit-learn, PyTorch, Random Forest, Naive Bayes.
+
+  \item \href{https://github.com/angel0x7/AI-NEURAL-SPEECH-}{\textbf{AI-NEURAL-SPEECH}} \\
+  Systèmes Embarqués \& IA : C/C++ (Arduino), CNN (TensorFlow), reconnaissance vocale embarquée.
+
+  \item \href{https://github.com/angel0x7/Role-playing-video-game}{\textbf{RPG}} et \href{https://github.com/angel0x7/snake_jeu_allegro}{\textbf{Snake}} \\
+  Développement Jeux Vidéo : C, Allegro 4.\\
+
+\noindent
+\textbf{GitHub :} \href{https://github.com/angel0x7}{github.com/angel0x7}
+% ======= PROFESSIONAL EXPERIENCE =======
+\section*{Professional Experience}
+
+\begin{itemize}[leftmargin=*]
+
+  \item
+  \textbf{\href{https://www.renaultgroup.com/}{Renault Group}} \hfill \emph{Douai, Hauts-de-France, France} \\
+  \emph{Stagiaire Technicien de Maintenance} \hfill Janvier 2025 – Février 2025, Temps plein \\
+  Assistance aux opérations de maintenance et  afin d'assurer le bon fonctionnement des équipements de production.
+
+\item
+  \textbf{\href{https://www.inmapa.com/en/}{INMAPA}} \hfill \emph{Palencia, Castilla y León, Espagne} \\
+  \emph{Stagiaire Opérateur} \hfill Janvier 2024 – Février 2024, Temps plein \\
+  Participation à un projet pour un leader européen de l’aéronautique, supportant les opérations industrielles et le contrôle qualité.
+
+\item
+  \textbf{\href{https://www.renaultgroup.com/}{Renault Group}} \hfill \emph{Guyancourt, Île-de-France, France} \\
+  \emph{Stagiaire en Ingénieurie Process} \hfill Juillet 2021 – Août 2021, Stage \\
+  Contribution aux initiatives d’optimisation des procédés au sein du département ingénierie, améliorant l’efficacité des flux de travail.
+
+    
+\end{itemize}
+
+\end{itemize}
+
+\end{document}
