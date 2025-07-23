@@ -1,1 +1,1 @@
-# 👨‍💻 Angel Velasco – Résumé / CV
+# 👨‍💻 Angel Velasco – Resume / CV
